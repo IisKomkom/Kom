@@ -1,0 +1,12 @@
+pandas
+requests
+tqdm
+selenium
+cloudinary
+python-dotenv
+beautifulsoup4
+lxml
+PyYAML
+# For Google Drive API (if needed for advanced rclone integration)
+# google-api-python-client
+dotenv 
