@@ -1,0 +1,6 @@
+id,user_id,user_name,phone,email,request_date,status,admin_notes,last_updated
+1,test_user_123,,,,e9ffdd04444e,pending,2025-07-19 00:38:54,2025-07-19 00:38:54
+2,test_user_456,,,,c1fafb24cba6,pending,2025-07-19 00:38:54,2025-07-19 00:38:54
+3,integration_test_user,,,,d4b29c51f352,pending,2025-07-19 00:38:54,2025-07-19 00:38:54
+4,test_user_123,,,,404e64902e18,pending,2025-07-19 00:39:48,2025-07-19 00:39:48
+5,test_user_456,,,,cd5df5c40674,pending,2025-07-19 00:39:48,2025-07-19 00:39:48

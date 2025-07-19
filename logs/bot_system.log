@@ -1,0 +1,30 @@
+2025-07-19 00:40:45,065 - __main__ - INFO - Checking environment configuration...
+2025-07-19 00:40:45,065 - __main__ - INFO - Set environment variable USER_BOT_TOKEN to default
+2025-07-19 00:40:45,065 - __main__ - INFO - Set environment variable ADMIN_BOT_TOKEN to default
+2025-07-19 00:40:45,065 - __main__ - INFO - Set environment variable ADMIN_CHAT_ID to default
+2025-07-19 00:40:45,065 - __main__ - INFO - Environment check completed
+2025-07-19 00:40:45,065 - __main__ - INFO - Initializing database...
+2025-07-19 00:40:45,072 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:40:45,077 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:40:45,077 - __main__ - INFO - Database already contains 5 books
+2025-07-19 00:40:45,078 - __main__ - INFO - Starting User Book Bot...
+2025-07-19 00:40:45,079 - root - WARNING - Telegram libraries not available
+2025-07-19 00:40:45,079 - user_book_bot - WARNING - ⚠️ Telegram bot not available
+2025-07-19 00:40:45,079 - user_book_bot - ERROR - ❌ Telegram libraries not available. Cannot start bot.
+2025-07-19 00:40:47,079 - __main__ - INFO - Starting Admin Panel Web Interface...
+2025-07-19 00:40:47,080 - root - WARNING - Flask not available for web interface
+2025-07-19 00:40:47,080 - root - WARNING - Telegram libraries not available
+2025-07-19 00:40:49,079 - __main__ - INFO - Starting Admin Telegram Bot...
+2025-07-19 00:40:49,079 - admin_panel - ERROR - ❌ Telegram libraries not available for admin bot
+2025-07-19 00:41:01,080 - __main__ - WARNING - User Bot thread stopped unexpectedly
+2025-07-19 00:41:01,080 - __main__ - WARNING - Admin Panel thread stopped unexpectedly
+2025-07-19 00:41:01,080 - __main__ - WARNING - Admin Bot thread stopped unexpectedly
+2025-07-19 00:41:11,080 - __main__ - WARNING - User Bot thread stopped unexpectedly
+2025-07-19 00:41:11,081 - __main__ - WARNING - Admin Panel thread stopped unexpectedly
+2025-07-19 00:41:11,081 - __main__ - WARNING - Admin Bot thread stopped unexpectedly
+2025-07-19 00:41:21,081 - __main__ - WARNING - User Bot thread stopped unexpectedly
+2025-07-19 00:41:21,081 - __main__ - WARNING - Admin Panel thread stopped unexpectedly
+2025-07-19 00:41:21,081 - __main__ - WARNING - Admin Bot thread stopped unexpectedly
+2025-07-19 00:41:31,081 - __main__ - WARNING - User Bot thread stopped unexpectedly
+2025-07-19 00:41:31,081 - __main__ - WARNING - Admin Panel thread stopped unexpectedly
+2025-07-19 00:41:31,081 - __main__ - WARNING - Admin Bot thread stopped unexpectedly
