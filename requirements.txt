@@ -1,12 +1,20 @@
-pandas
-requests
-tqdm
-selenium
-cloudinary
-python-dotenv
-beautifulsoup4
-lxml
-PyYAML
-# For Google Drive API (if needed for advanced rclone integration)
-# google-api-python-client
-dotenv 
+requests==2.31.0
+beautifulsoup4==4.12.2
+selenium==4.15.2
+pandas==2.1.3
+mysql-connector-python==8.2.0
+pymysql==1.1.0
+schedule==1.2.0
+python-dotenv==1.0.0
+webdriver-manager==4.0.1
+cloudscraper==1.2.71
+fake-useragent==1.4.0
+lxml==4.9.3
+jinja2==3.1.2
+tqdm==4.66.1
+openpyxl==3.1.2
+aiohttp==3.9.1
+asyncio==3.4.3
+playwright==1.40.0
+chromedriver-autoinstaller==0.6.2
+wget==3.2 
