@@ -1,86 +1,170 @@
 import os
+from dotenv import load_dotenv
 
-# Automatically detect the base directory (folder where config.py is located)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv()
 
-# ==============================================================================
-# Z-LIBRARY SCRAPER CONFIGURATION
-# ==============================================================================
-
-# --- Z-Library Base URL and Authentication ---
-BASE_URL = "https://z-library.sk/"
-
-# List of cookie JSON sets for authentication fallback.
-FALLBACK_COOKIES_JSON = [
-    # Primary Cookies (Account 1)
-    """
-    [
-    {"domain": ".z-library.sk", "expirationDate": 1756204781.177271, "hostOnly": false, "httpOnly": false, "name": "remix_userid", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "6896047"},
-    {"domain": ".z-library.sk", "expirationDate": 1754920581, "hostOnly": false, "httpOnly": false, "name": "zlib-searchSettings", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "%7B%22length%22%3A0%7D"},
-    {"domain": ".z-library.sk", "expirationDate": 1755165365, "hostOnly": false, "httpOnly": false, "name": "zlib-searchOrder", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "year"},
-    {"domain": ".z-library.sk", "expirationDate": 1756204781.177198, "hostOnly": false, "httpOnly": false, "name": "remix_userkey", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "4b80d03d9fd7b77e896552f3d9bc41be"},
-    {"domain": ".z-library.sk", "expirationDate": 1755283180.655748, "hostOnly": false, "httpOnly": false, "name": "selectedSiteMode", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "books"},
-    {"domain": ".z-library.sk", "expirationDate": 1786632153.387159, "hostOnly": false, "httpOnly": false, "name": "siteLanguage", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "en"},
-    {"domain": ".z-library.sk", "expirationDate": 1755183577, "hostOnly": false, "httpOnly": false, "name": "zlib-searchView", "path": "/", "sameSite": "no_restriction", "secure": true, "session": false, "storeId": null, "value": "list"}
-    ]
-    """,
-    # Fallback Cookies (Account 2) - Optional
-    """
-    [
-        {"name": "remix_sessionid", "value": "paste_sessionid_for_account_2_here"},
-        {"name": "remix_userkey", "value": "paste_userkey_for_account_2_here"}
-    ]
-    """
-]
-
-# --- Scraping Parameters ---
-LANGUAGES_TO_SCRAPE = ["indonesian", "english"]
-FILE_EXTENSIONS = ["MOBI", "PDF", "EPUB", "DJVU", "CBZ"]
-SORT_ORDERS = ["popular", "year", "date", "titleA"]
-MAX_PAGES_PER_ORDER = 10
-CUSTOM_QUERIES = ["", ""]
-MAX_DATA_PER_KEYWORD = 0  # 0/None for unlimited
-
-# --- File Paths (Unified for all scripts) ---
-KEYWORD_LIST_CSV = os.path.join(BASE_DIR, "keyword_list.csv")
-OUTPUT_FILENAME = os.path.join(BASE_DIR, "data", "csv", "zlibrary_scraped_books.csv")
-ACCOUNTS_CSV = os.path.join(BASE_DIR, "data", "csv", "akun.csv")
-DOWNLOAD_DIR = "download_files"  # relative to project root
-BACKGROUND_IMAGE_PATH = os.path.join(BASE_DIR, "data", "image", "bg.png")
-# Google Sheets keyword list (export CSV URL)
-KEYWORD_SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1Mk9HwWQLPsUc-0LlltjA_KlOsO5cvlC8XkyB6uVpBdE/export?format=csv"
-
-# --- API Integration ---
-API_URL = "https://www.api.staisenorituban.ac.id/upload_data"
-# Endpoint untuk claim batch buku download
-API_CLAIM_URL = "https://www.api.staisenorituban.ac.id/claim_books"
-
-# --- ImageKit (if used) ---
-IMAGEKIT_PRIVATE_KEY = "private_J1/4FQ81jMIoNRGmn3KP/DbEIW0="
-IMAGEKIT_PUBLIC_KEY = "public_mg/N0MGJvDD1prirfhnoPWpgxyk="
-IMAGEKIT_URL_ENDPOINT = "https://ik.imagekit.io/uj3f2gmukl"
-
-# --- Image Transformation Settings ---
-IMAGE_TRANSFORM_SETTINGS = {
-    'border_size': 50,
-    'corner_radius': 25,
-    'target_cover_height': 675,
-    'shadow_color_r': 0,
-    'shadow_color_g': 0,
-    'shadow_color_b': 0,
-    'shadow_color_alpha': 200,
-    'shadow_offset_x': 15,
-    'shadow_offset_y': 15,
-    'shadow_blur_radius': 40
+# Database Configuration
+DATABASE_CONFIG = {
+    'host': os.getenv('DB_HOST', 'localhost'),
+    'user': os.getenv('DB_USER', 'root'),
+    'password': os.getenv('DB_PASSWORD', ''),
+    'database': os.getenv('DB_NAME', 'freeware_bot'),
+    'port': int(os.getenv('DB_PORT', 3306))
 }
 
-# --- Cloudinary ---
-CLOUDINARY_CLOUD_NAME = "duwgvawwz"
-CLOUDINARY_API_KEY = "126294172827318"
-CLOUDINARY_API_SECRET = "Yc-2V2krS7lIc-E9lH2sfEUK9WA"
+# Cloud Storage Configuration
+MEDIAFIRE_CONFIG = {
+    'email': os.getenv('MEDIAFIRE_EMAIL'),
+    'password': os.getenv('MEDIAFIRE_PASSWORD'),
+    'api_key': os.getenv('MEDIAFIRE_API_KEY')
+}
 
-# --- Optional: Start/End Row for Download (None means all) ---
-START_ROW = None
-END_ROW = None
+MEGA_CONFIG = {
+    'email': os.getenv('MEGA_EMAIL'),
+    'password': os.getenv('MEGA_PASSWORD')
+}
+
+GDRIVE_CONFIG = {
+    'service_account_file': os.getenv('GDRIVE_SERVICE_ACCOUNT'),
+    'folder_id': os.getenv('GDRIVE_FOLDER_ID')
+}
+
+# Rclone Configuration
+RCLONE_CONFIG = {
+    'config_file': os.getenv('RCLONE_CONFIG', '~/.config/rclone/rclone.conf'),
+    'mediafire_remote': 'mediafire:',
+    'mega_remote': 'mega:',
+    'gdrive_remote': 'gdrive:'
+}
+
+# Target Websites Configuration
+TARGET_SITES = {
+    'filecr': {
+        'base_url': 'https://filecr.com',
+        'categories': [
+            '/category/windows/',
+            '/category/macos/',
+            '/category/android/',
+            '/category/games/'
+        ],
+        'selectors': {
+            'title': 'h1.entry-title',
+            'download_link': 'a[href*="download"]',
+            'description': '.entry-content p',
+            'version': '.version',
+            'size': '.size',
+            'category': '.category'
+        }
+    },
+    'nasbandia': {
+        'base_url': 'https://nasbandia.com',
+        'categories': [
+            '/category/software/',
+            '/category/games/',
+            '/category/mobile/'
+        ],
+        'selectors': {
+            'title': 'h1.post-title',
+            'download_link': 'a[href*="link"]',
+            'description': '.post-content',
+            'version': '.version-info',
+            'size': '.file-size'
+        }
+    },
+    'downloadly': {
+        'base_url': 'https://downloadly.ir',
+        'categories': [
+            '/software/',
+            '/games/',
+            '/mobile/'
+        ],
+        'selectors': {
+            'title': 'h1.title',
+            'download_link': 'a.download-btn',
+            'description': '.content',
+            'version': '.version',
+            'size': '.size'
+        }
+    },
+    'apptorent': {
+        'base_url': 'https://apptorent.ru',
+        'categories': [
+            '/windows/',
+            '/macos/',
+            '/android/'
+        ],
+        'selectors': {
+            'title': 'h1.entry-title',
+            'download_link': 'a[href*="torrent"]',
+            'description': '.post-content',
+            'version': '.version',
+            'size': '.torrent-size'
+        }
+    }
+}
+
+# Additional Freeware Sites
+ADDITIONAL_SITES = {
+    'softpedia': 'https://www.softpedia.com',
+    'majorgeeks': 'https://www.majorgeeks.com',
+    'techspot': 'https://www.techspot.com/downloads/',
+    'ninite': 'https://ninite.com',
+    'portableapps': 'https://portableapps.com',
+    'fosshub': 'https://www.fosshub.com',
+    'sourceforge': 'https://sourceforge.net'
+}
+
+# Scraping Configuration
+SCRAPING_CONFIG = {
+    'delay_between_requests': 2,
+    'max_retries': 3,
+    'timeout': 30,
+    'user_agents': [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    ],
+    'headers': {
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Accept-Encoding': 'gzip, deflate',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1'
+    }
+}
+
+# Download Configuration
+DOWNLOAD_CONFIG = {
+    'download_folder': './downloads/',
+    'max_file_size': 5 * 1024 * 1024 * 1024,  # 5GB
+    'allowed_extensions': ['.exe', '.msi', '.dmg', '.app', '.apk', '.zip', '.rar', '.7z'],
+    'chunk_size': 8192,
+    'concurrent_downloads': 3
+}
+
+# Schedule Configuration
+SCHEDULE_CONFIG = {
+    'update_frequency': 'weekly',  # weekly, daily, hourly
+    'update_day': 'monday',
+    'update_time': '02:00',
+    'check_interval': 60  # minutes
+}
+
+# HTML Template Configuration
+HTML_CONFIG = {
+    'template_folder': './templates/',
+    'output_folder': './html_output/',
+    'items_per_page': 50,
+    'theme': 'modern'
+}
+
+# Logging Configuration
+LOGGING_CONFIG = {
+    'level': 'INFO',
+    'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    'file': 'bot.log',
+    'max_size': 10 * 1024 * 1024,  # 10MB
+    'backup_count': 5
+}
 
 
