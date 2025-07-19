@@ -1,0 +1,6 @@
+id,title,author,publisher,year,language,extension,filesize,book_url,cover_image_url,source_type,cover_url_final,files_url_drive,download_status
+book_001,Python Programming for Beginners,John Smith,Tech Books,2023,English,,,,,,,,pending
+book_002,Data Science with Python,Jane Doe,Data Press,2023,English,,,,,,,,pending
+book_003,Machine Learning Fundamentals,Bob Johnson,AI Publications,2022,English,,,,,,,,pending
+book_004,Web Development Complete Guide,Alice Brown,Web Masters,2023,English,,,,,,,,pending
+book_005,Database Design Principles,Charlie Wilson,DB Books,2022,English,,,,,,,,pending

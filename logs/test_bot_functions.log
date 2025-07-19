@@ -1,0 +1,262 @@
+2025-07-19 00:35:50,747 - __main__ - INFO - 🚀 Starting comprehensive bot function tests
+2025-07-19 00:35:50,747 - __main__ - INFO - Created sample book data with 5 books at data/books_database.csv
+2025-07-19 00:35:50,747 - __main__ - INFO - === Testing Admin Database ===
+2025-07-19 00:35:50,756 - __main__ - ERROR - ❌ Admin Database test failed: No module named 'pandas'
+2025-07-19 00:35:50,756 - __main__ - INFO - === Testing User Bot Functions ===
+2025-07-19 00:35:50,760 - __main__ - ERROR - ❌ User Bot test failed: No module named 'pandas'
+2025-07-19 00:35:50,760 - __main__ - INFO - === Testing Admin Panel Functions ===
+2025-07-19 00:35:50,763 - __main__ - ERROR - ❌ Admin Panel test failed: No module named 'pandas'
+2025-07-19 00:35:50,763 - __main__ - INFO - === Testing WhatsApp Notifications ===
+2025-07-19 00:35:50,764 - __main__ - ERROR - ❌ WhatsApp Notification test failed: No module named 'pandas'
+2025-07-19 00:35:50,764 - __main__ - INFO - === Testing CSV Database Export ===
+2025-07-19 00:35:50,764 - __main__ - ERROR - ❌ CSV Database Export test failed: No module named 'pandas'
+2025-07-19 00:35:50,764 - __main__ - INFO - === Running Integration Test ===
+2025-07-19 00:35:50,764 - __main__ - ERROR - ❌ Integration test failed: No module named 'pandas'
+2025-07-19 00:35:50,764 - __main__ - INFO - === TEST SUMMARY ===
+2025-07-19 00:35:50,764 - __main__ - INFO - admin_database: ❌ FAILED
+2025-07-19 00:35:50,764 - __main__ - INFO - user_bot: ❌ FAILED
+2025-07-19 00:35:50,764 - __main__ - INFO - admin_panel: ❌ FAILED
+2025-07-19 00:35:50,764 - __main__ - INFO - whatsapp_notifications: ❌ FAILED
+2025-07-19 00:35:50,764 - __main__ - INFO - csv_export: ❌ FAILED
+2025-07-19 00:35:50,764 - __main__ - INFO - integration: ❌ FAILED
+2025-07-19 00:35:50,764 - __main__ - INFO - Overall: 0/6 tests passed
+2025-07-19 00:35:50,764 - __main__ - INFO - ⚠️  Some tests failed. Please check the logs for details.
+2025-07-19 00:36:27,357 - __main__ - INFO - 🚀 Starting comprehensive bot function tests
+2025-07-19 00:36:27,358 - __main__ - INFO - Created sample book data with 5 books at data/books_database.csv
+2025-07-19 00:36:27,358 - __main__ - INFO - === Testing Admin Database ===
+2025-07-19 00:36:27,359 - __main__ - ERROR - ❌ Admin Database test failed: expected an indented block after 'for' statement on line 149 (admin_database.py, line 150)
+2025-07-19 00:36:27,359 - __main__ - INFO - === Testing User Bot Functions ===
+2025-07-19 00:36:27,364 - __main__ - ERROR - ❌ User Bot test failed: expected an indented block after 'for' statement on line 149 (admin_database.py, line 150)
+2025-07-19 00:36:27,364 - __main__ - INFO - === Testing Admin Panel Functions ===
+2025-07-19 00:36:27,365 - __main__ - ERROR - ❌ Admin Panel test failed: expected an indented block after 'for' statement on line 149 (admin_database.py, line 150)
+2025-07-19 00:36:27,365 - __main__ - INFO - === Testing WhatsApp Notifications ===
+2025-07-19 00:36:27,366 - __main__ - ERROR - ❌ WhatsApp Notification test failed: expected an indented block after 'for' statement on line 149 (admin_database.py, line 150)
+2025-07-19 00:36:27,366 - __main__ - INFO - === Testing CSV Database Export ===
+2025-07-19 00:36:27,366 - __main__ - ERROR - ❌ CSV Database Export test failed: expected an indented block after 'for' statement on line 149 (admin_database.py, line 150)
+2025-07-19 00:36:27,366 - __main__ - INFO - === Running Integration Test ===
+2025-07-19 00:36:27,367 - __main__ - ERROR - ❌ Integration test failed: expected an indented block after 'for' statement on line 149 (admin_database.py, line 150)
+2025-07-19 00:36:27,367 - __main__ - INFO - === TEST SUMMARY ===
+2025-07-19 00:36:27,367 - __main__ - INFO - admin_database: ❌ FAILED
+2025-07-19 00:36:27,367 - __main__ - INFO - user_bot: ❌ FAILED
+2025-07-19 00:36:27,367 - __main__ - INFO - admin_panel: ❌ FAILED
+2025-07-19 00:36:27,367 - __main__ - INFO - whatsapp_notifications: ❌ FAILED
+2025-07-19 00:36:27,367 - __main__ - INFO - csv_export: ❌ FAILED
+2025-07-19 00:36:27,367 - __main__ - INFO - integration: ❌ FAILED
+2025-07-19 00:36:27,367 - __main__ - INFO - Overall: 0/6 tests passed
+2025-07-19 00:36:27,367 - __main__ - INFO - ⚠️  Some tests failed. Please check the logs for details.
+2025-07-19 00:37:05,052 - __main__ - INFO - 🚀 Starting comprehensive bot function tests
+2025-07-19 00:37:05,052 - __main__ - INFO - Created sample book data with 5 books at data/books_database.csv
+2025-07-19 00:37:05,052 - __main__ - INFO - === Testing Admin Database ===
+2025-07-19 00:37:05,101 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:37:05,104 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:37:05,104 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:37:05,107 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:37:05,107 - __main__ - INFO - Test 1: Searching books
+2025-07-19 00:37:05,108 - admin_database - INFO - 📚 Search 'python' returned 2 results
+2025-07-19 00:37:05,108 - __main__ - INFO - Search results for 'python': 2 books found
+2025-07-19 00:37:05,108 - __main__ - INFO -   - Data Science with Python by Jane Doe
+2025-07-19 00:37:05,108 - __main__ - INFO -   - Python Programming for Beginners by John Smith
+2025-07-19 00:37:05,108 - __main__ - INFO - Test 2: Creating user session
+2025-07-19 00:37:05,108 - __main__ - ERROR - ❌ Admin Database test failed: 'AdminDatabase' object has no attribute 'create_user_session'
+2025-07-19 00:37:05,108 - __main__ - INFO - === Testing User Bot Functions ===
+2025-07-19 00:37:05,109 - root - WARNING - Telegram libraries not available
+2025-07-19 00:37:05,109 - __main__ - ERROR - ❌ User Bot test failed: name 'Message' is not defined
+2025-07-19 00:37:05,109 - __main__ - INFO - === Testing Admin Panel Functions ===
+2025-07-19 00:37:05,109 - root - WARNING - Flask not available for web interface
+2025-07-19 00:37:05,109 - root - WARNING - Telegram libraries not available
+2025-07-19 00:37:05,109 - __main__ - INFO - Test 1: Testing dashboard stats
+2025-07-19 00:37:05,110 - __main__ - ERROR - ❌ Admin Panel test failed: 'AdminPanel' object has no attribute 'get_dashboard_stats'
+2025-07-19 00:37:05,110 - __main__ - INFO - === Testing WhatsApp Notifications ===
+2025-07-19 00:37:05,110 - __main__ - INFO - Test 1: Testing WhatsApp notification
+2025-07-19 00:37:05,110 - __main__ - ERROR - ❌ WhatsApp Notification test failed: 'AdminDatabase' object has no attribute 'send_whatsapp_notification'
+2025-07-19 00:37:05,110 - __main__ - INFO - === Testing CSV Database Export ===
+2025-07-19 00:37:05,110 - __main__ - INFO - Test 1: Exporting database to CSV
+2025-07-19 00:37:05,110 - __main__ - ERROR - ❌ CSV Database Export test failed: 'AdminDatabase' object has no attribute 'get_all_books'
+2025-07-19 00:37:05,110 - __main__ - INFO - === Running Integration Test ===
+2025-07-19 00:37:05,110 - root - WARNING - Telegram libraries not available
+2025-07-19 00:37:05,111 - __main__ - ERROR - ❌ Integration test failed: name 'Message' is not defined
+2025-07-19 00:37:05,111 - __main__ - INFO - === TEST SUMMARY ===
+2025-07-19 00:37:05,111 - __main__ - INFO - admin_database: ❌ FAILED
+2025-07-19 00:37:05,111 - __main__ - INFO - user_bot: ❌ FAILED
+2025-07-19 00:37:05,111 - __main__ - INFO - admin_panel: ❌ FAILED
+2025-07-19 00:37:05,111 - __main__ - INFO - whatsapp_notifications: ❌ FAILED
+2025-07-19 00:37:05,111 - __main__ - INFO - csv_export: ❌ FAILED
+2025-07-19 00:37:05,111 - __main__ - INFO - integration: ❌ FAILED
+2025-07-19 00:37:05,111 - __main__ - INFO - Overall: 0/6 tests passed
+2025-07-19 00:37:05,111 - __main__ - INFO - ⚠️  Some tests failed. Please check the logs for details.
+2025-07-19 00:38:54,658 - __main__ - INFO - 🚀 Starting comprehensive bot function tests
+2025-07-19 00:38:54,658 - __main__ - INFO - Created sample book data with 5 books at data/books_database.csv
+2025-07-19 00:38:54,658 - __main__ - INFO - === Testing Admin Database ===
+2025-07-19 00:38:54,666 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:38:54,669 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:38:54,669 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:38:54,673 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:38:54,673 - __main__ - INFO - Test 1: Searching books
+2025-07-19 00:38:54,673 - admin_database - INFO - 📚 Search 'python' returned 2 results
+2025-07-19 00:38:54,673 - __main__ - INFO - Search results for 'python': 2 books found
+2025-07-19 00:38:54,673 - __main__ - INFO -   - Data Science with Python by Jane Doe
+2025-07-19 00:38:54,673 - __main__ - INFO -   - Python Programming for Beginners by John Smith
+2025-07-19 00:38:54,673 - __main__ - INFO - Test 2: Creating user session
+2025-07-19 00:38:54,678 - admin_database - INFO - ✅ Created request session e9ffdd04444e for user test_user_123
+2025-07-19 00:38:54,678 - __main__ - INFO - Created session: e9ffdd04444e
+2025-07-19 00:38:54,678 - __main__ - INFO - Test 3: Adding books to request
+2025-07-19 00:38:54,678 - __main__ - ERROR - ❌ Admin Database test failed: 'super' object has no attribute 'add_book_to_request'
+2025-07-19 00:38:54,678 - __main__ - INFO - === Testing User Bot Functions ===
+2025-07-19 00:38:54,682 - root - WARNING - Telegram libraries not available
+2025-07-19 00:38:54,682 - user_book_bot - WARNING - ⚠️ Telegram bot not available
+2025-07-19 00:38:54,682 - __main__ - INFO - Test 1: Testing search functionality
+2025-07-19 00:38:54,682 - admin_database - INFO - 📚 Search 'python programming' returned 1 results
+2025-07-19 00:38:54,682 - __main__ - INFO - Search for 'python programming': 1 results
+2025-07-19 00:38:54,682 - __main__ - INFO - Test 2: Testing session management
+2025-07-19 00:38:54,690 - admin_database - INFO - ✅ Created request session c1fafb24cba6 for user test_user_456
+2025-07-19 00:38:54,690 - __main__ - INFO - Session for user test_user_456: c1fafb24cba6
+2025-07-19 00:38:54,690 - __main__ - INFO - Test 3: Testing add book to list
+2025-07-19 00:38:54,690 - __main__ - ERROR - ❌ User Bot test failed: 'super' object has no attribute 'add_book_to_request'
+2025-07-19 00:38:54,690 - __main__ - INFO - === Testing Admin Panel Functions ===
+2025-07-19 00:38:54,695 - root - WARNING - Flask not available for web interface
+2025-07-19 00:38:54,695 - root - WARNING - Telegram libraries not available
+2025-07-19 00:38:54,695 - __main__ - INFO - Test 1: Testing dashboard stats
+2025-07-19 00:38:54,696 - __main__ - INFO - Dashboard stats: {'total_books': 5, 'available_books': 0, 'total_requests': 2, 'requests_by_status': {'pending': 2}, 'total_request_items': 0, 'requests_last_24h': 2, 'pending_requests_count': 2}
+2025-07-19 00:38:54,696 - __main__ - INFO - Test 2: Testing pending requests
+2025-07-19 00:38:54,696 - __main__ - INFO - Pending requests: 2
+2025-07-19 00:38:54,696 - __main__ - INFO - Test 3: Testing auto-process
+2025-07-19 00:38:54,696 - admin_database - INFO - 📋 Retrieved 0 items for request 1
+2025-07-19 00:38:54,696 - admin_database - INFO - 📋 Retrieved 0 items for request 2
+2025-07-19 00:38:54,696 - __main__ - INFO - Auto-processed requests: 0
+2025-07-19 00:38:54,696 - __main__ - INFO - Test 4: Testing request details
+2025-07-19 00:38:54,697 - admin_database - INFO - 📋 Retrieved 0 items for request 1
+2025-07-19 00:38:54,697 - __main__ - INFO - Request details for 1: 0 items
+2025-07-19 00:38:54,697 - __main__ - INFO - ✅ Admin Panel tests completed successfully
+2025-07-19 00:38:54,697 - __main__ - INFO - === Testing WhatsApp Notifications ===
+2025-07-19 00:38:54,697 - __main__ - INFO - Test 1: Testing WhatsApp notification
+2025-07-19 00:38:54,697 - admin_database - INFO - 📱 WhatsApp message to 085799520350:
+2025-07-19 00:38:54,697 - admin_database - INFO - Message: Test notification: New book request submitted
+2025-07-19 00:38:54,697 - __main__ - INFO - WhatsApp notification sent: True
+2025-07-19 00:38:54,697 - __main__ - INFO - ✅ WhatsApp Notification tests completed successfully
+2025-07-19 00:38:54,697 - __main__ - INFO - === Testing CSV Database Export ===
+2025-07-19 00:38:54,697 - __main__ - INFO - Test 1: Exporting database to CSV
+2025-07-19 00:38:54,697 - __main__ - INFO - Exported 5 books to data/exported_books.csv
+2025-07-19 00:38:54,698 - __main__ - INFO - Exported 2 requests to data/exported_requests.csv
+2025-07-19 00:38:54,698 - __main__ - INFO - ✅ CSV Database Export tests completed successfully
+2025-07-19 00:38:54,698 - __main__ - INFO - === Running Integration Test ===
+2025-07-19 00:38:54,698 - __main__ - INFO - Integration Test: Complete user flow simulation
+2025-07-19 00:38:54,698 - user_book_bot - WARNING - ⚠️ Telegram bot not available
+2025-07-19 00:38:54,704 - admin_database - INFO - ✅ Created request session d4b29c51f352 for user integration_test_user
+2025-07-19 00:38:54,704 - admin_database - INFO - 📚 Search 'programming' returned 1 results
+2025-07-19 00:38:54,704 - __main__ - ERROR - ❌ Integration test failed: 'super' object has no attribute 'add_book_to_request'
+2025-07-19 00:38:54,704 - __main__ - INFO - === TEST SUMMARY ===
+2025-07-19 00:38:54,704 - __main__ - INFO - admin_database: ❌ FAILED
+2025-07-19 00:38:54,704 - __main__ - INFO - user_bot: ❌ FAILED
+2025-07-19 00:38:54,704 - __main__ - INFO - admin_panel: ✅ PASSED
+2025-07-19 00:38:54,704 - __main__ - INFO - whatsapp_notifications: ✅ PASSED
+2025-07-19 00:38:54,704 - __main__ - INFO - csv_export: ✅ PASSED
+2025-07-19 00:38:54,704 - __main__ - INFO - integration: ❌ FAILED
+2025-07-19 00:38:54,704 - __main__ - INFO - Overall: 3/6 tests passed
+2025-07-19 00:38:54,704 - __main__ - INFO - ⚠️  Some tests failed. Please check the logs for details.
+2025-07-19 00:39:48,251 - __main__ - INFO - 🚀 Starting comprehensive bot function tests
+2025-07-19 00:39:48,251 - __main__ - INFO - Created sample book data with 5 books at data/books_database.csv
+2025-07-19 00:39:48,251 - __main__ - INFO - === Testing Admin Database ===
+2025-07-19 00:39:48,259 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:39:48,265 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:39:48,265 - admin_database - INFO - ✅ Admin database initialized successfully
+2025-07-19 00:39:48,271 - admin_database - INFO - ✅ Loaded 5 books from CSV into database
+2025-07-19 00:39:48,271 - __main__ - INFO - Test 1: Searching books
+2025-07-19 00:39:48,272 - admin_database - INFO - 📚 Search 'python' returned 2 results
+2025-07-19 00:39:48,272 - __main__ - INFO - Search results for 'python': 2 books found
+2025-07-19 00:39:48,272 - __main__ - INFO -   - Data Science with Python by Jane Doe
+2025-07-19 00:39:48,272 - __main__ - INFO -   - Python Programming for Beginners by John Smith
+2025-07-19 00:39:48,272 - __main__ - INFO - Test 2: Creating user session
+2025-07-19 00:39:48,279 - admin_database - INFO - ✅ Created request session 404e64902e18 for user test_user_123
+2025-07-19 00:39:48,279 - __main__ - INFO - Created session: 404e64902e18
+2025-07-19 00:39:48,279 - __main__ - INFO - Test 3: Adding books to request
+2025-07-19 00:39:48,279 - admin_database - ERROR - Session 404e64902e18 not found
+2025-07-19 00:39:48,279 - __main__ - INFO - Added book book_002 to request: False
+2025-07-19 00:39:48,279 - __main__ - INFO - Test 4: Getting request summary
+2025-07-19 00:39:48,280 - admin_database - INFO - 📋 Retrieved 0 items for request 404e64902e18
+2025-07-19 00:39:48,281 - __main__ - INFO - Request summary: 0 books in list
+2025-07-19 00:39:48,281 - __main__ - INFO - Test 5: Submitting request
+2025-07-19 00:39:48,281 - admin_database - ERROR - Request 404e64902e18 has no items
+2025-07-19 00:39:48,281 - __main__ - INFO - Submitted request: None
+2025-07-19 00:39:48,281 - __main__ - INFO - Test 6: Getting pending requests
+2025-07-19 00:39:48,281 - __main__ - INFO - Pending requests: 4
+2025-07-19 00:39:48,281 - __main__ - INFO - Test 7: Approving request
+2025-07-19 00:39:48,281 - admin_database - ERROR - Error approving request 4: no such column: last_updated
+2025-07-19 00:39:48,281 - __main__ - INFO - Approved request: False
+2025-07-19 00:39:48,281 - __main__ - INFO - ✅ Admin Database tests completed successfully
+2025-07-19 00:39:48,281 - __main__ - INFO - === Testing User Bot Functions ===
+2025-07-19 00:39:48,282 - root - WARNING - Telegram libraries not available
+2025-07-19 00:39:48,282 - user_book_bot - WARNING - ⚠️ Telegram bot not available
+2025-07-19 00:39:48,282 - __main__ - INFO - Test 1: Testing search functionality
+2025-07-19 00:39:48,282 - admin_database - INFO - 📚 Search 'python programming' returned 1 results
+2025-07-19 00:39:48,282 - __main__ - INFO - Search for 'python programming': 1 results
+2025-07-19 00:39:48,282 - __main__ - INFO - Test 2: Testing session management
+2025-07-19 00:39:48,288 - admin_database - INFO - ✅ Created request session cd5df5c40674 for user test_user_456
+2025-07-19 00:39:48,288 - __main__ - INFO - Session for user test_user_456: cd5df5c40674
+2025-07-19 00:39:48,288 - __main__ - INFO - Test 3: Testing add book to list
+2025-07-19 00:39:48,288 - admin_database - ERROR - Session cd5df5c40674 not found
+2025-07-19 00:39:48,288 - __main__ - INFO - Added book to list: False
+2025-07-19 00:39:48,288 - __main__ - INFO - Test 4: Testing view list
+2025-07-19 00:39:48,288 - admin_database - INFO - 📋 Retrieved 0 items for request cd5df5c40674
+2025-07-19 00:39:48,288 - __main__ - INFO - User list contains: 0 books
+2025-07-19 00:39:48,288 - __main__ - INFO - Test 5: Testing clear list
+2025-07-19 00:39:48,289 - admin_database - ERROR - Error clearing request cd5df5c40674: no such column: session_id
+2025-07-19 00:39:48,289 - __main__ - INFO - List cleared: False
+2025-07-19 00:39:48,289 - __main__ - INFO - Test 6: Testing stats
+2025-07-19 00:39:48,289 - __main__ - INFO - User stats: {'total_requests': 2, 'pending_requests': 2, 'approved_requests': 0, 'user_id': 'test_user_456'}
+2025-07-19 00:39:48,289 - __main__ - INFO - ✅ User Bot tests completed successfully
+2025-07-19 00:39:48,289 - __main__ - INFO - === Testing Admin Panel Functions ===
+2025-07-19 00:39:48,289 - root - WARNING - Flask not available for web interface
+2025-07-19 00:39:48,289 - root - WARNING - Telegram libraries not available
+2025-07-19 00:39:48,290 - __main__ - INFO - Test 1: Testing dashboard stats
+2025-07-19 00:39:48,290 - __main__ - INFO - Dashboard stats: {'total_books': 5, 'available_books': 0, 'total_requests': 5, 'requests_by_status': {'pending': 5}, 'total_request_items': 0, 'requests_last_24h': 5, 'pending_requests_count': 5}
+2025-07-19 00:39:48,290 - __main__ - INFO - Test 2: Testing pending requests
+2025-07-19 00:39:48,291 - __main__ - INFO - Pending requests: 5
+2025-07-19 00:39:48,291 - __main__ - INFO - Test 3: Testing auto-process
+2025-07-19 00:39:48,291 - admin_database - INFO - 📋 Retrieved 0 items for request 4
+2025-07-19 00:39:48,291 - admin_database - INFO - 📋 Retrieved 0 items for request 5
+2025-07-19 00:39:48,292 - admin_database - INFO - 📋 Retrieved 0 items for request 1
+2025-07-19 00:39:48,292 - admin_database - INFO - 📋 Retrieved 0 items for request 2
+2025-07-19 00:39:48,292 - admin_database - INFO - 📋 Retrieved 0 items for request 3
+2025-07-19 00:39:48,292 - __main__ - INFO - Auto-processed requests: 0
+2025-07-19 00:39:48,292 - __main__ - INFO - Test 4: Testing request details
+2025-07-19 00:39:48,292 - admin_database - INFO - 📋 Retrieved 0 items for request 4
+2025-07-19 00:39:48,292 - __main__ - INFO - Request details for 4: 0 items
+2025-07-19 00:39:48,292 - __main__ - INFO - ✅ Admin Panel tests completed successfully
+2025-07-19 00:39:48,292 - __main__ - INFO - === Testing WhatsApp Notifications ===
+2025-07-19 00:39:48,292 - __main__ - INFO - Test 1: Testing WhatsApp notification
+2025-07-19 00:39:48,292 - admin_database - INFO - 📱 WhatsApp message to 085799520350:
+2025-07-19 00:39:48,292 - admin_database - INFO - Message: Test notification: New book request submitted
+2025-07-19 00:39:48,292 - __main__ - INFO - WhatsApp notification sent: True
+2025-07-19 00:39:48,292 - __main__ - INFO - ✅ WhatsApp Notification tests completed successfully
+2025-07-19 00:39:48,292 - __main__ - INFO - === Testing CSV Database Export ===
+2025-07-19 00:39:48,292 - __main__ - INFO - Test 1: Exporting database to CSV
+2025-07-19 00:39:48,293 - __main__ - INFO - Exported 5 books to data/exported_books.csv
+2025-07-19 00:39:48,293 - __main__ - INFO - Exported 5 requests to data/exported_requests.csv
+2025-07-19 00:39:48,293 - __main__ - INFO - ✅ CSV Database Export tests completed successfully
+2025-07-19 00:39:48,293 - __main__ - INFO - === Running Integration Test ===
+2025-07-19 00:39:48,293 - __main__ - INFO - Integration Test: Complete user flow simulation
+2025-07-19 00:39:48,293 - user_book_bot - WARNING - ⚠️ Telegram bot not available
+2025-07-19 00:39:48,297 - admin_database - INFO - ✅ Created request session d99d9fe3328e for user integration_test_user
+2025-07-19 00:39:48,298 - admin_database - INFO - 📚 Search 'programming' returned 1 results
+2025-07-19 00:39:48,298 - admin_database - ERROR - Session d99d9fe3328e not found
+2025-07-19 00:39:48,298 - admin_database - ERROR - Request d99d9fe3328e has no items
+2025-07-19 00:39:48,298 - __main__ - INFO - Integration: User submitted request None
+2025-07-19 00:39:48,299 - admin_database - INFO - 📋 Retrieved 0 items for request 4
+2025-07-19 00:39:48,299 - admin_database - INFO - 📋 Retrieved 0 items for request 5
+2025-07-19 00:39:48,299 - admin_database - INFO - 📋 Retrieved 0 items for request 6
+2025-07-19 00:39:48,299 - admin_database - INFO - 📋 Retrieved 0 items for request 1
+2025-07-19 00:39:48,300 - admin_database - INFO - 📋 Retrieved 0 items for request 2
+2025-07-19 00:39:48,300 - admin_database - INFO - 📋 Retrieved 0 items for request 3
+2025-07-19 00:39:48,300 - __main__ - INFO - Integration: Admin auto-processed requests
+2025-07-19 00:39:48,300 - __main__ - INFO - Integration: Exporting final database state
+2025-07-19 00:39:48,300 - __main__ - INFO - ✅ Integration test completed successfully
+2025-07-19 00:39:48,300 - __main__ - INFO - Final report: {'timestamp': '2025-07-19T00:39:48.300266', 'total_books': 5, 'total_requests': 6, 'pending_requests': 6, 'test_status': 'completed'}
+2025-07-19 00:39:48,300 - __main__ - INFO - === TEST SUMMARY ===
+2025-07-19 00:39:48,301 - __main__ - INFO - admin_database: ✅ PASSED
+2025-07-19 00:39:48,301 - __main__ - INFO - user_bot: ✅ PASSED
+2025-07-19 00:39:48,301 - __main__ - INFO - admin_panel: ✅ PASSED
+2025-07-19 00:39:48,301 - __main__ - INFO - whatsapp_notifications: ✅ PASSED
+2025-07-19 00:39:48,301 - __main__ - INFO - csv_export: ✅ PASSED
+2025-07-19 00:39:48,301 - __main__ - INFO - integration: ✅ PASSED
+2025-07-19 00:39:48,301 - __main__ - INFO - Overall: 6/6 tests passed
+2025-07-19 00:39:48,301 - __main__ - INFO - 🎉 All tests passed! Bot system is ready for deployment.

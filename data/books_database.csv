@@ -1,0 +1,6 @@
+id,title,author,category,year,isbn,pages,language,description,publisher,format,size,available
+book_001,Python Programming for Beginners,John Smith,Programming,2023,978-1234567890,350,English,Complete guide to Python programming,Tech Books,PDF,15.2MB,yes
+book_002,Data Science with Python,Jane Doe,Data Science,2023,978-0987654321,420,English,Comprehensive data science guide,Data Press,PDF,18.5MB,yes
+book_003,Machine Learning Fundamentals,Bob Johnson,AI/ML,2022,978-1122334455,500,English,Introduction to machine learning concepts,AI Publications,PDF,22.1MB,no
+book_004,Web Development Complete Guide,Alice Brown,Web Development,2023,978-2233445566,380,English,Full-stack web development tutorial,Web Masters,PDF,16.8MB,yes
+book_005,Database Design Principles,Charlie Wilson,Database,2022,978-3344556677,290,English,Database design and optimization guide,DB Books,PDF,12.3MB,yes

@@ -1,0 +1,182 @@
+{
+  "overall_success_rate": 81.48148148148148,
+  "total_checks": 54,
+  "passed_checks": 44,
+  "failed_checks": 10,
+  "validation_time_seconds": 0.1632080078125,
+  "timestamp": "2025-07-19T00:20:35.810050",
+  "components": {
+    "file_structure": {
+      "passed": 6,
+      "total": 6,
+      "success_rate": 100.0,
+      "files": {
+        "flask_api_receiver.py": {
+          "status": "pass",
+          "description": "Enhanced Flask API",
+          "size_kb": 29.1259765625,
+          "lines": 830
+        },
+        "notify.py": {
+          "status": "pass",
+          "description": "Enhanced notification system",
+          "size_kb": 17.2578125,
+          "lines": 526
+        },
+        "book_search_bot_full.py": {
+          "status": "pass",
+          "description": "Enhanced Telegram bot",
+          "size_kb": 28.7587890625,
+          "lines": 862
+        },
+        "controller_api.py": {
+          "status": "pass",
+          "description": "Enhanced controller API",
+          "size_kb": 25.8544921875,
+          "lines": 683
+        },
+        "download_file.py": {
+          "status": "pass",
+          "description": "Enhanced download system",
+          "size_kb": 33.2744140625,
+          "lines": 728
+        },
+        "config.py": {
+          "status": "pass",
+          "description": "Configuration",
+          "size_kb": 4.3115234375,
+          "lines": 86
+        }
+      }
+    },
+    "flask_api_enhancements": {
+      "passed": 6,
+      "total": 8,
+      "success_rate": 75.0,
+      "enhancements": {
+        "rate_limiting": true,
+        "caching": false,
+        "error_handling": false,
+        "health_endpoints": true,
+        "enhanced_logging": true,
+        "database_optimization": true,
+        "enhanced_models": true,
+        "thread_safety": true
+      }
+    },
+    "notification_enhancements": {
+      "passed": 7,
+      "total": 8,
+      "success_rate": 87.5,
+      "enhancements": {
+        "queue_system": true,
+        "multi_channel": true,
+        "rate_limiting": true,
+        "retry_logic": false,
+        "notification_manager": true,
+        "background_processing": true,
+        "health_check": true,
+        "enhanced_templates": true
+      }
+    },
+    "telegram_bot_enhancements": {
+      "passed": 8,
+      "total": 8,
+      "success_rate": 100.0,
+      "enhancements": {
+        "session_management": true,
+        "rate_limiting": true,
+        "caching": true,
+        "error_handling": true,
+        "enhanced_keyboards": true,
+        "search_history": true,
+        "user_statistics": true,
+        "admin_features": true
+      }
+    },
+    "controller_enhancements": {
+      "passed": 8,
+      "total": 8,
+      "success_rate": 100.0,
+      "enhancements": {
+        "process_management": true,
+        "health_monitoring": true,
+        "retry_mechanisms": true,
+        "notification_integration": true,
+        "concurrent_processing": true,
+        "process_monitoring": true,
+        "graceful_shutdown": true,
+        "system_resources": true
+      }
+    },
+    "download_enhancements": {
+      "passed": 2,
+      "total": 8,
+      "success_rate": 25.0,
+      "enhancements": {
+        "http_505_handling": false,
+        "exponential_backoff": false,
+        "session_reuse": false,
+        "account_cooldown": false,
+        "enhanced_logging": true,
+        "error_recovery": false,
+        "progress_tracking": false,
+        "notification_integration": true
+      }
+    },
+    "configuration": {
+      "passed": 2,
+      "total": 3,
+      "success_rate": 66.66666666666666,
+      "details": {
+        "config": {
+          "status": "pass",
+          "items": {
+            "api_url": true,
+            "output_filename": true,
+            "keyword_list": true,
+            "download_dir": true
+          }
+        },
+        "logs_directory": {
+          "status": "pass"
+        },
+        "directory_structure": {
+          "status": "warn",
+          "structure": {
+            "data_dir": false,
+            "csv_dir": false,
+            "download_dir": false
+          }
+        }
+      }
+    },
+    "python_syntax": {
+      "passed": 5,
+      "total": 5,
+      "success_rate": 100.0,
+      "files": {
+        "flask_api_receiver.py": {
+          "status": "pass",
+          "message": "Syntax OK"
+        },
+        "notify.py": {
+          "status": "pass",
+          "message": "Syntax OK"
+        },
+        "book_search_bot_full.py": {
+          "status": "pass",
+          "message": "Syntax OK"
+        },
+        "controller_api.py": {
+          "status": "pass",
+          "message": "Syntax OK"
+        },
+        "download_file.py": {
+          "status": "pass",
+          "message": "Syntax OK"
+        }
+      }
+    }
+  }
+}
